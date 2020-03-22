@@ -8,8 +8,9 @@
   stages {
     stage('Build') {
       steps {
-        sh 'npm install -g less'
+        sh 'npm install'
       }
+      environment { HOME="." }
     }
 
   }
