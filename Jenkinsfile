@@ -11,7 +11,7 @@
   stages {
     stage('Build') {
       steps {
-        sh 'apt install npm -g'
+        sh 'npm install -g'
       }
     }
 
